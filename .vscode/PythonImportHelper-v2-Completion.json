@@ -1,0 +1,54 @@
+[
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "isExtraImport": true,
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "bank",
+        "description": "bank",
+        "peekOfCode": "class Account:\n    name=\"speria\"\n    number=34\n    pin=23332\n    balance=3000",
+        "detail": "bank",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "car",
+        "description": "car",
+        "peekOfCode": "class Car:\n def __init__(self,name,speed,model,make):\n    self.name=name\n    self.spee=speed\n    self.medel=model\n    self.make=make",
+        "detail": "car",
+        "documentation": {}
+    },
+    {
+        "label": "Fruit",
+        "kind": 6,
+        "importPath": "fruit",
+        "description": "fruit",
+        "peekOfCode": "class Fruit:\n    def __init__(self,name,shape,color,price):\n        self.name=name\n        self.color=color\n        self.shape=shape\n        self.price=price",
+        "detail": "fruit",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "student",
+        "description": "student",
+        "peekOfCode": "class Student:       \n    def __init__(self,full_name,country,school):\n            self.name=full_name\n            self.school=school\n            self.country=country\n    def great(self):\n           return f\"{self.name} welcome {self.school} how is {self.country}\"",
+        "detail": "student",
+        "documentation": {}
+    }
+]
